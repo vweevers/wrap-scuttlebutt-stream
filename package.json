@@ -1,0 +1,35 @@
+{
+  "name": "wrap-scuttlebutt-stream",
+  "version": "0.0.1",
+  "description": "Transition utility to create JSONStream-wrapped scuttlebutt streams",
+  "license": "MIT",
+  "author": {
+    "name": "Vincent Weevers",
+    "email": "mail@vincentweevers.nl"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib/index.js"
+  ],
+  "scripts": {
+    "build": "babel -d lib src"
+  },
+  "dependencies": {
+    "is-stream": "~1.0.1",
+    "wrap-json-stream": "0.0.1"
+  },
+  "devDependencies": {
+    "tape": "~4.4.0"
+  },
+  "keywords": [
+    "jsonstream",
+    "scuttlebutt"
+  ],
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=2.0.0"
+  },
+  "repository": "vweevers/wrap-scuttlebutt-stream",
+  "bugs": "https://github.com/vweevers/wrap-scuttlebutt-stream/issues",
+  "homepage": "https://github.com/vweevers/wrap-scuttlebutt-stream"
+}
