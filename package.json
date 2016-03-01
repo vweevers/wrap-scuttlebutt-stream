@@ -1,6 +1,6 @@
 {
   "name": "wrap-scuttlebutt-stream",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Transition utility to create JSONStream-wrapped scuttlebutt streams",
   "license": "MIT",
   "author": {
