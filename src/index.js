@@ -12,7 +12,8 @@ const fwd =
   , 'sync'
   , 'syncSent'
   , 'synced'
-  , 'header' ]
+  , 'header'
+  , 'commit' ]
 
 function createStream(model, opts) {
   let { wrapper, wrap, ...rest } = opts || {}
